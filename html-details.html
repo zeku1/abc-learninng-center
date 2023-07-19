@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ABC Learning</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="script.js" type="text/javascript"></script>
+</head>
+<body>
+    <!-------------<NAVIGATION BAR>------------->
+    <header id="nav-box">
+        <img src="img/logo.png" id="logo" alt="logo">
+        <nav >
+            <ul id="nav-links">
+                <li class="il"><a href="index.html">Home</a></li>
+                <li class="il"><a href="courses.html">Courses</a></li>
+                <li class="il"><a href="about.html">About us</a></li>
+                <li class="il"><a href="contacts.html">Contact us</a></li>
+                <li class="il"><a href="privacypolicy.html">Privacy Policy</a></li>
+                <li class="il"><a href="sitemap.html">Sitemap</a></li>
+            </ul>  
+        </nav>
+        <button id="user" onclick="menu()"><img src="img/user.png" width="50px" height="25px"></button>
+        <button class="hidden" id="user2" onclick="menu2()"><img src="img/user.png" width="50px" height="25px"></button>
+    </header>
+
+    <div class="hidden" id="user-menu">
+        <img src="img/user2.png" width="50px" >
+        <a href="newReg.html">Register</a>
+        <a href="admin.html">Admin</a>
+    </div>
+
+    <!-----------<MAIN CONTENT (index)---------->
+
+        <main id="Courses-main" >
+            <div class="course-nav">
+                
+                <input type="text" placeholder="Search.." name="search" >
+    
+                <ul>
+                    <li><a href="html-schedule.html">Schedule</a></li>
+                    <li><a href="courses.html">My Courses</a></li>
+                </ul>
+            </div>
+    
+            
+                
+    
+                    <div class="menu-btn">
+                        <button class="hideBtn" id="hideBtn" onclick="hide()">
+                            <img src="img/menu.png" height="50px">
+                        </button>
+                        <button class="hide" id="showBtn" onclick="show()">
+                            <img src="img/menu.png" width="50px">
+                        </button>
+                    </div>
+    
+            <div class="popdetails">
+                <div id="popup-menu" >
+                    <div class="sidebar">
+                        <ul class="side-ul">
+                            <li><a class="sli" href="#" style="font-size:25px;">Preview</a></li>
+                        </ul>
+                        <ul class="side-ul">
+                            <li><a class="sli" href="#" style="font-size:25px;">Lessons 1</a></li>
+                            <li><a class="sil" href="#">sem</a></li>
+                            <li><a class="sil" href="#">vestibulum</a></li>
+                            <li><a class="sil" href="#">pharetra</a></li>
+                            <li><a class="sil" href="#">duis</a></li>
+                        </ul>
+                        <ul class="side-ul">
+                            <li><a class="sli" href="#" style="font-size:25px;">Lessons 2</a></li>        
+                            <li><a class="sil" href="#">vestibulum</a></li>
+                            <li><a class="sil" href="#">pharetra</a></li>
+                            <li><a class="sil" href="#">duis</a></li>
+                        </ul>
+                        <ul class="side-ul">
+                            <li><a class="sli" href="#" style="font-size:25px;">Lessons 3</a></li>
+                            <li><a class="sil" href="#">sem</a></li>
+                            <li><a class="sil" href="#">vestibulum</a></li>
+                            <li><a class="sil" href="#">pharetra</a></li>
+                            <li><a class="sil" href="#">duis</a></li>
+                        </ul>
+                        <ul class="side-ul" >
+                            <li><a class="sil" href="#" style="font-size:25px;">Assignments</a></li>
+                            <li><a class="sil" href="#">mauris</a></li>
+                            <li><a class="sil" href="#">vitae</a></li>
+                            <li><a class="sil" href="#">Lessons</a></li>
+                        </ul>
+                        <ul class="side-ul" >
+                            <li><a class="sil" href="html-schedule.html" style="font-size:25px;">Schedule</a></li>
+                        </ul>
+                        
+                    </div>
+    
+                    <div class="hide" id="hideBtn">
+                        <button><img src="img/menu.png" width="75px"></button>
+                    </div>
+    
+                </div>
+    
+                <div class="details">
+    
+                    <div class="course-title">
+                        <span>HTML COURSE</span>
+                    </div>
+                    <div class="prev">
+                        <div class="CP">
+                        <span>Course preview</span>
+                        </div>
+                        <div class="CPP">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                            tempor incididunt ut labore et dolore magna aliqua. Ac turpis egestas 
+                            maecenas pharetra convallis posuere. Dolor sed viverra ipsum nunc aliquet 
+                            bibendum. Ac tincidunt vitae semper quis lectus nulla at volutpat. 
+                            Dignissim cras tincidunt lobortis feugiat vivamus at augue. Quis risus 
+                            sed vulputate odio ut enim blandit volutpat maecenas. Urna porttitor 
+                            rhoncus dolor purus non enim. Volutpat maecenas volutpat blandit aliquam.
+                            In vitae turpis massa sed elementum tempus egestas. In dictum non 
+                            consectetur a. Quam nulla porttitor massa id neque aliquam vestibulum.
+                            Adipiscing diam donec adipiscing tristique risus. Duis at tellus at urna.
+                            Quis varius quam quisque id diam vel. Dictum sit amet justo donec enim diam.
+                            Erat pellentesque adipiscing commodo elit at. Nisi est sit amet facilisis 
+                            magna etiam tempor. Ridiculus mus mauris vitae ultricies. Lectus sit amet est
+                            placerat in egestas erat imperdiet sed. Odio aenean sed adipiscing diam. Maecenas 
+                            pharetra convallis posuere morbi leo urna. Aliquet risus feugiat in ante metus dictum.
+                            Scelerisque eu ultrices vitae auctor. Augue mauris augue neque gravida. Faucibus nisl 
+                            tincidunt eget nullam non nisi est. Sit amet nisl suscipit adipiscing. Habitasse 
+                            platea dictumst quisque sagittis purus sit amet volutpat. Sapien eget mi proin sed 
+                            libero enim. Enim nunc faucibus a pellentesque sit. Sit amet consectetur adipiscing 
+                            elit pellentesque habitant morbi tristique senectus.
+                        </p>
+                        </div>
+                        <div class="CPP">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                            tempor incididunt ut labore et dolore magna aliqua. Ac turpis egestas 
+                            maecenas pharetra convallis posuere. Dolor sed viverra ipsum nunc aliquet 
+                            bibendum. Ac tincidunt vitae semper quis lectus nulla at volutpat. 
+                            Dignissim cras tincidunt lobortis feugiat vivamus at augue. Quis risus 
+                            sed vulputate odio ut enim blandit volutpat maecenas. Urna porttitor 
+                            rhoncus dolor purus non enim. Volutpat maecenas volutpat blandit aliquam.
+                            In vitae turpis massa sed elementum tempus egestas. In dictum non 
+                            consectetur a. Quam nulla porttitor massa id neque aliquam vestibulum.
+                            Adipiscing diam donec adipiscing tristique risus. Duis at tellus at urna.
+                            Quis varius quam quisque id diam vel. Dictum sit amet justo donec enim diam.
+                            Erat pellentesque adipiscing commodo elit at. Nisi est sit amet facilisis 
+                            magna etiam tempor. Ridiculus mus mauris vitae ultricies. Lectus sit amet est
+                            placerat in egestas erat imperdiet sed. Odio aenean sed adipiscing diam. Maecenas 
+                            pharetra convallis posuere morbi leo urna. Aliquet risus feugiat in ante metus dictum.
+                            Scelerisque eu ultrices vitae auctor. Augue mauris augue neque gravida. Faucibus nisl 
+                            tincidunt eget nullam non nisi est. Sit amet nisl suscipit adipiscing. Habitasse 
+                            platea dictumst quisque sagittis purus sit amet volutpat. Sapien eget mi proin sed 
+                            libero enim. Enim nunc faucibus a pellentesque sit. Sit amet consectetur adipiscing 
+                            elit pellentesque habitant morbi tristique senectus.
+                        </p>
+                        </div>
+                    </div>
+                    <div class="ITC">
+                        <span> In this course</span>
+                    </div>
+                    <div class="ITC-list">
+                        <ul>
+                        <li class="ITC-li"><a href="#">Page Structure</a> </li>
+                        <li class="ITC-li"><a href="#">Elements</a></li>
+                        <li class="ITC-li"><a href="#">Tags and attributes</a></li>
+                        <li class="ITC-li"><a href="#">CSS</a></li>
+                        <li class="ITC-li"><a href="#">Even More HTML Essentials</a></li>
+                        <li class="ITC-li"><a href="#">Vanilla javascript</a></li>
+                        
+                        </ul>
+                    </div>
+    
+    
+    
+                </div>
+            </div>
+    
+    
+        </main>
+            
+    
+    
+    
+        <footer>
+
+
+            <div class="footer">
+    
+                <div class="section">
+                    <img src="img/logo2.png" width="200px">
+                    <p>21st street Davao City, Philippines</p>
+                    <p>420-666-6969</p>
+                </div>
+                <div class="section">
+                    <h1>Useful Settings</h1>
+                    <a href="#">FAQ</a>
+                    <a href="#">Costmer Service</a>
+                    <a href="newReg.html">Account Settings</a>
+                </div>
+                <div class="section">
+                    <h1>Useful Links</h1>
+                    <a href="index.html">Home</a>
+                    <a href="courses.html">Courses</a>
+                    <a href="java-schedule.html">Schedules</a>
+                    <a href="about.html">about</a>
+                    <a href="contacts.html">Contacts</a>
+                    <a href="privacypolicy.html">Privacy Policy</a>
+                    <a href="sitemap.html">Sitemap</a>
+                </div>
+                <div class="section">
+                    <h1>Contacts</h1>
+                    <p>*************@abc.edu.ph</p>
+                    <p>ABClearning_edu</p>
+                    <p>ABC Learning Center</p>
+                    <p>420-666-6969</p>
+    
+    
+                </div>
+    
+            </div>
+    
+        </footer>
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    </body>
+    
+    
+    
+    </html> 

@@ -1,0 +1,869 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    color: #282f31;
+}
+ul{
+    text-decoration: none;
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+}
+main{
+    min-height: 1000px;
+    padding-top: 75px;
+    font-family: sans-serif;
+    background-color: #edf0f1;
+}
+
+
+
+
+/****************<NAVIGATION BAR - start>***********************/
+
+#user, il, a{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #282f31;
+    text-decoration: none;
+  }
+  
+  header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10%;
+    box-sizing: border-box;
+    background-color: #edf0f1;
+    width: 100%;
+    position:fixed;
+    box-shadow: -5px -5px 10px rgba(255,255,255,0.8),
+              5px 5px 10px rgba(0,0,0,0.25);
+  }
+  
+  #logo{
+    cursor: pointer;
+    width: 250px;
+    margin-right: auto;
+  }
+  
+  #nav-links{
+    list-style: none;
+  }
+  #nav-links li{
+    display: inline-block;
+    padding: 0px 20px;
+  }
+  #nav-links li a{
+    transition: all 0,3s;
+  }
+  #nav-links li a:hover{
+    color:rgba(0, 136, 169, 1);
+  }
+  
+  #user{
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    cursor: pointer;
+    border-radius: 100px;
+    transition: all 0,3s;
+    padding: 10px 10px;
+    margin-left: 40px;
+    color: #edf0f1;
+  }
+
+  #user2{
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    cursor: pointer;
+    border-radius: 100px;
+    transition: all 0,3s;
+    padding: 10px 10px;
+    margin-left: 40px;
+    color: #edf0f1;
+  }
+  #user:hover{
+    background-color: rgba(0, 136, 169, 0.5);
+  }
+
+  /**********************<navigation bar - end>************************/
+
+  #user-menu{
+    position: fixed;
+    width: 200px;
+    top: 80px;
+    right: 120px;
+    padding: 50px 50px 50px 50px;
+    background-color: #edf0f1;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: -5px -5px 10px rgb(178, 204, 207),
+              5px 5px 10px rgba(0,0,0,0.10);
+      
+  }
+
+  #user-menu a{
+    display: block;
+    padding-bottom: 5px;
+  }
+
+  #user-menu a:hover{
+    color: #47c9f5;
+  }
+
+  .hidden{
+    display: none;
+  }
+
+
+  /********<thank you page>*********/
+  
+  .thankPage{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    background: #edf0f1;
+  }
+
+  .container{
+    width: 600px;
+    margin: 1rem;
+    padding: 2rem;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    border-radius: 4px;
+    background: #ffffff;
+  }
+
+  .container h1{
+    text-align: center;
+    font-size: 3em;
+    color:#1f4e70;
+    padding-bottom: 20px;
+  }
+
+  .container p{
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .container a{
+    display: block;
+    padding-bottom: 10px;
+    margin-left: 200px;
+    color: rgba(0, 136, 169, 1) ;
+  }
+
+  .container span{
+    padding-right: 10px;
+  }
+
+  .container a:hover{
+    color: #1f4e70;
+  }
+
+/**********************<MAIN CONTENTS - Start>**********************/
+
+    /*****<INDEX MAIN PARAGRAPH section- start>*******/
+    #div-picture{
+        width: 100%;
+        height:50VH;
+        background-image: url("img/ABC-building.jpg");
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        color: #edf0f1;
+    }
+
+    #para-title h1{
+        color: #edf0f1;
+        text-align: center;
+        font-size: 4em;
+        padding-top: 50px;
+    }
+
+    #para-contents{
+        width: 50%;
+        margin: auto;
+    }
+
+    #para-contents p{
+        color: #edf0f1;
+        text-align: justify;
+        font-size: 1.75em;
+        padding-top: 20px;
+    }
+    /*****<index main paragraph section- end>******/
+
+    /*****<INDEX CAREER SECTION - start>*****/
+    #div-career{
+        align-content: center;
+        text-align: center;
+        padding-bottom: 100px;
+        background-color: #edf0f1;;
+    }
+
+    .careers{
+        display: inline-block;
+        margin: auto;
+        margin-right: 30px;
+        border-radius: 4px;
+        background-color: #ffffff;
+        box-shadow: -5px -5px 10px rgb(255, 255, 255),
+              5px 5px 10px rgba(0,0,0,0.10);
+    }
+
+    .careers:hover{
+        cursor: pointer;
+    }
+
+    .career-details h1{
+        font-size: 2em;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .career-details p{
+        font-size: 1.5em;
+        margin-bottom: 20px;
+    }
+
+    #career-title h1{
+        font-size: 4em;
+        padding-top: 35px;
+        margin-bottom: 50px;
+    }
+
+    .career-img{
+        width: 90%;
+        
+        margin-top: 20px;
+    }
+
+    .careers{
+        width: 18%;
+    }
+
+    
+    /*****<index career section - end>******/
+  
+    /*****<INDEX EVENTS SECTION - start>*****/
+
+    #EVENTS{
+        text-align: center;
+        background-color: #edf0f1;;
+        vertical-align: middle;
+        padding-bottom: 100px;
+        transition: 0.5s;
+    }
+
+    #EVENTS h1{
+        font-size: 4em;
+        padding-bottom: 75px;
+        padding-top: 50px ;
+    }
+
+    .event-box{
+        width: 1010px;
+        margin:auto;
+        box-shadow: -5px -5px 10px rgb(178, 204, 207),
+              5px 5px 10px rgba(0,0,0,0.10);
+        border-radius: 30px;
+        vertical-align: middle;
+        margin-bottom: 50px;
+        background-color: #edf0f1;;
+        transition: 0.5s;
+    }
+
+    .event-box:hover{
+        
+        cursor: pointer;
+        
+    }
+
+    .event-box h2{
+        font-size: 3em;
+        padding-bottom: 10px;
+        transition: 0.5s;
+        
+    }
+
+    .event-box p{
+        font-size: 1.5em;
+        text-align: justify;
+        padding-right: 10px ;
+        transition: 0.5s;
+    }
+
+    .event-image img{
+        width: 500px;
+        border-radius: 30px;
+        padding-right: 20px;
+        vertical-align: -75px;
+        transition: 0.5s;
+    }
+
+    .event-image{
+        display: inline-block;
+        margin: auto;
+        transition: 0.5s;
+    }
+
+    .event-details{
+        display:inline-block;
+        margin: auto;
+        transition: 0.5s;
+    }
+
+    .event-details p{
+        display:inline-block;
+        width: 500px;
+        transition: 0.5s;
+    }
+
+    /*****<index event section - end>*****/
+
+/**********************<MAIN CONTENTS - end>**********************/
+
+/**********************<COURSES CONTENTS - start>**********************/
+
+    /*****<COURSES CONTENTS - start>*****/
+
+    .HEADER-title{
+      background-color:#edf0f1;
+      text-align: center;
+      padding-top: 30px;
+    }
+
+    .HEADER-title h1{
+      font-size: 5em;
+    }
+
+    .course-nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px 10%;
+        box-sizing: border-box;
+        background-color: #42b5db;
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        
+    }
+    
+
+    .course-nav input{
+        padding: 5px 5px 5px 5px;
+        font-size: 15px;
+    }
+    
+    .course-nav li{
+        display: inline-block;
+        padding-right: 80px;
+    }
+      
+    .course-nav a{
+        font-size: 2em;
+    }
+
+    .course-nav li a:hover{
+        color:#edf0f1;
+      }
+
+      .course-list{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr ;
+        padding-top: 70px;
+        column-gap: 100px;
+        row-gap: 70px;
+        padding-left: 40px;
+        padding-right: 40px;
+        background-color: #edf0f1;
+        padding-bottom: 100px;
+        
+      }
+
+      .courses span{
+        background-color: #42b5db;
+        padding: 10px 12px 10px 12px;
+        font-size: 16px;
+        font-weight: bolder;
+        border-radius: 150px;
+        margin-right: 10px ;
+        color: #edf0f1;
+      }
+
+
+      .courses{
+        background-color: rgb(255, 255, 255);
+        text-align: justify;
+        border-radius: 30px;
+        box-shadow: -5px -5px 10px rgb(178, 204, 207),
+              5px 5px 10px rgba(0,0,0,0.10);
+      }
+
+      .courses h3{
+        text-align: center;
+        font-size: 2.8em;
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+
+      .courses li{
+        font-size: 25px;
+        color: #282f31;
+        padding-left: 40px;
+        padding-bottom: 20px;
+      }
+
+      .btn1{
+        background-color: rgba(0, 136, 169, 1);
+        border: none;
+        cursor: pointer;
+        border-radius: 50px;
+        transition: all 0,3s;
+        padding: 10px 25px 10px 25px;
+        margin-left: 60px;
+        color: #edf0f1;
+        margin-top: 20px;
+        margin-bottom: 30px;
+      }
+      .btn1 a{
+        color: #ffffff;
+      }
+
+      .btn1:hover{
+        background-color: #42b5db;
+      }
+
+      /*****<Course details>*****/
+
+      .hide{
+        display: none;
+      }
+
+      #popup-menu{
+        background-color: rgba(0, 136, 169, 1);
+      }
+
+      .sidebar{
+        top: 80px;
+        width: 250px;
+        transition: .3s;
+        background-color: rgba(0, 136, 169, 1);
+        
+      }
+      .side-ul, #side-u{
+        padding-bottom: 25px;
+        padding-top: 25px;
+        padding-left: 25px;
+        border-bottom: 1px solid rgba(0,0,0,0.2);
+        display: block;
+        color: #edf0f1;
+        
+      }
+
+      .sidebar a{
+        color: #edf0f1;
+      }
+
+      #showBtn{
+        border: none;
+        background-color:rgba(0, 136, 169, 1) ;
+        padding-top: 10px;
+      }
+
+      .hideBtn{
+        background-color: rgba(0, 136, 169, 1);
+        border: none;
+        width: 250px;
+        border-bottom: #282f31 solid 0.3px;
+      }
+
+      .side-ul li a:hover{
+        color: #282f31;
+      }
+
+
+      .popdetails{
+        display: grid;
+        grid-template-columns: 250px 1fr ;
+      }
+
+      /***/
+
+      .details{
+        padding-top: 25px;
+        background-color: #edf0f1;
+        color: #282f31;;
+      }
+      
+      .course-title{
+        padding-left: 90px;
+        
+      }
+      
+      .course-title span{
+        color: #282f31;
+        font-size: 4em;
+      }
+      
+      .prev{
+        padding-left: 110px;
+        padding-top: 30px;
+        padding-right: 110px;
+      }
+      
+      .prev span{
+        font-size: 3em;
+        
+      }
+      
+      .CP{
+        padding-bottom: 30px;
+      }
+      
+      .CPP{
+        padding-bottom: 20px ;
+        text-align: justify;
+      }
+
+      .CPP p{
+        font-size: 1.75em;
+      }
+      
+      .ITC{
+        padding-left: 110px;
+        padding-top: 30px;
+      }
+      
+      .ITC span{
+        font-size: 3em;
+      }
+
+      .ITC-li{
+        list-style:circle;
+        padding-top: 20px;
+        padding-left: 30px;
+        font-size: 2em;
+      }
+      
+      .ITC-list{
+        padding-left: 110px;
+        padding-top: 20px;
+        padding-bottom: 250px;
+      }
+      /**********<schedule>********/
+      .sched-main{
+        max-height: 800px;
+      }
+      .div-sched{
+        display: grid;
+        grid-template-columns: 300px 1fr;
+      }
+      .sBtn{
+        width: 100%;
+        padding:50px 0 50px 0 ;
+        background-color:#42b5db;
+        border: none ;
+        border-bottom: solid 1px #282f31;
+        margin-bottom: 1px;
+        font-size: 2em;
+        font-weight: bold;
+        color: #ffffff;
+      }
+
+      .sBtn:hover{
+        background-color: #1f4e70;
+      }
+
+      #picked{
+        background-color: #286fa1;
+      }
+
+      .sched-list{
+        background-color: #42b5db;
+        height: 100vh;
+      }
+      .sched-details{
+        align-items: center;
+    
+      }
+
+      .sched-details h1{
+        font-size: 3em;
+        margin-top: 30px;
+        margin-left: 70px;
+      }
+
+      .sched-details p{
+        text-align: center;
+        font-size: 3em;
+        margin-top: 30px;
+        margin-left: 70px;
+      }
+
+      .sched-details table{
+        margin: auto;
+      }
+
+      .sched-details th{
+        padding: 20px 70px 20px 70px;
+        border: solid 1px #282f31;
+        background-color: #42b5db;
+        font-size: 20px;
+      }
+
+      .sched-details td{
+        padding: 50px 70px 50px 70px;
+        border: solid 1px #282f31;
+        
+      }
+
+      .yes{
+        background-color: #47c9f5;
+        font-size: 18px;
+        font-weight: bold;
+        color: #edf0f1;
+      }
+
+
+
+      /********************************<about us>*********************/
+      .about{
+        width: 800px;
+        margin: auto;
+        box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+        margin-top: 50px;
+        background-color: #ecf2f5;
+        padding-bottom: 50px;
+        margin-bottom: 80px;
+      }
+
+
+      .about h1{
+        text-align: center;
+        font-size: 4em;
+        padding-top: 30px;
+        padding-bottom: 15px;
+      }
+
+      .about p{
+        text-align: center;
+        padding: 0 50px 0 50px;
+        font-size: 18px;
+      }
+
+      .div-ht{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 100px;
+        margin-left: 100px;
+      }
+      
+      .home-title{
+        font-size: 3em;
+        
+      }
+      
+      .all-career{
+        display: flex;
+        align-items: center;
+        padding: 10px 10%;
+        box-sizing: border-box;
+        
+      }
+      
+      .career{
+        width: 500px;
+        display: inline-block;
+        border-radius: 30px;
+        margin: auto;
+        text-align: justify;
+      }
+      
+      .career-img{
+        padding-bottom: 10px;
+        margin: auto;
+      }
+      
+      .career-t{
+        padding-left: 55px;
+        padding-right: 75px;
+        padding-bottom: 10px;
+      }
+      
+      .career-p{
+        padding-left: 55px;
+        padding-right: 55px;
+        padding-bottom: 10px;
+        text-align:justify;
+      }
+      
+      .par{
+        font-size: 20px;
+      }
+      
+      .job-title{
+        font-size: 2em;
+        text-align: center;
+      }
+      
+
+      /********<contacts>************/
+
+
+      .hh1 h1{
+        text-align: center;
+        padding-top: 50px;
+        font-size: 5em;
+      }
+
+      .contacts{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 50px;
+        padding: 50px;
+      }
+
+      .Contact-box{
+        box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+        border-radius:30px ;
+        padding-top: 40px;
+        min-height: 400px;
+      }
+
+      .Contact-box h1{
+        text-align: center;
+        font-size: 2em;
+        padding-top: 20px;
+      }
+
+      .Contact-box p{
+        text-align: center;
+        font-size: 1.75em;
+        padding-top: 10px;
+      }
+      
+      /*********<privacy>******************/
+
+      .privacy{
+        padding: 30px 100px 30px 100px;
+      }
+
+      .privacy h1{
+        font-size: 4em;
+        padding-bottom: 40px;
+      }
+
+      .privacy h2{
+        font-size: 2.5em;
+        padding-bottom: 20px;
+      }
+
+      .privacy p{
+        font-size: 1.5em;
+        padding-bottom: 20px;
+      }
+
+      /**************<sitemap>**********/
+
+      .site-main{
+        background-color: #edf0f1;
+        
+        padding: 105px 100px 30px 100px;
+      }
+      .page-title h1{
+        font-size: 4em;
+        padding-bottom: 40px;
+      }
+  
+      .sitemap{
+        display: flex;
+        align-items: flex-start;
+        
+      }
+      .site-section{
+        display: inline-block;
+        width: 300px;
+        margin: auto;
+      }
+  
+      .sitemap h1{
+        color: #282f31;
+        font-size: 2.5em;
+        padding-bottom: 10px;
+        display: block;
+      }
+  
+      .sitemap a{
+        display: block;
+        color: #282f31;
+        padding-bottom: 5px;
+      }
+
+      .sitemap a:hover{
+        
+        color: #42b5db;
+        
+      }
+  
+      .footer p{
+        color: #edf0f1;
+        font-size: 1.5em;
+        padding-bottom: 5px;
+      }
+    
+      
+
+
+
+
+    /********<FOOTER - start>***********/
+
+    footer{
+      background-color: #1f4e70;
+      padding-top: 70px;
+      padding-bottom: 70px;
+    }
+
+    .footer{
+      display: flex;
+      
+    }
+    .section{
+      display: inline-block;
+      width: 300px;
+      margin: auto;
+    }
+
+    .footer h1{
+      color: #ffffff;
+      font-size: 1.75em;
+      padding-bottom: 10px;
+    }
+
+    .footer a{
+      display: block;
+      color: #edf0f1;
+      padding-bottom: 5px;
+    }
+
+    .footer p{
+      color: #edf0f1;
+      font-size: 1.5em;
+      padding-bottom: 5px;
+    }
+
+    
+      
