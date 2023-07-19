@@ -1,4 +1,5 @@
 # abc-learninng-center
+      - this is the very first project i make in making static website
 
 abc learning center is a static website that uses HTML, CSS, and JavaScript
 this website has registration  and log in functionality and saves data in the localStorage
